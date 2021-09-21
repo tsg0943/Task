@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libTask.so -o libTask.so CMakeFiles/Task.dir/Task/Sum.cpp.o 

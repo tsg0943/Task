@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tanya/CLionProjects/Task/Task.Tests/Sum.Tests.cpp
+gtest/gtest.h
+-
+../Task/Sum.h
+/home/tanya/CLionProjects/Task/Task/Sum.h
+
+/home/tanya/CLionProjects/Task/Task.Tests/main.cpp
+gtest/gtest.h
+-
+
+/home/tanya/CLionProjects/Task/Task/Sum.h
+
